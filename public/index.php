@@ -1,7 +1,9 @@
-<?php 
+<?php
 
 require_once __DIR__ . '/../includes/app.php';
 
+use Controllers\AuthController;
+use Controllers\PaginasController;
 use MVC\Router;
 
 $router = new Router();
@@ -28,5 +30,8 @@ $router->post('/reestablecer', [AuthController::class, 'reestablecer']);
 $router->get('/mensaje', [AuthController::class, 'mensaje']);
 $router->get('/confirmar-cuenta', [AuthController::class, 'confirmar']);
 
+
+// Área pública
+$router->get('/', [PaginasController::class, 'index']);
 
 $router->comprobarRutas();
