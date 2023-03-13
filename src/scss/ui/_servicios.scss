@@ -5,7 +5,12 @@
   @include m.contenedor;
 
   &__grid {
-    @include m.grid(4, 2rem);
+    @include m.grid(1, 2rem);
+    
+    @include m.tablet {
+      @include m.grid(4, 2rem);
+      
+    }
   }
 
   &__heading {
