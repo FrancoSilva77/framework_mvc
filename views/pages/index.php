@@ -9,6 +9,7 @@
         <i class="fa-solid fa-couch"></i>
       </div>
     </div>
+
     <div class="servicio">
       <h3 class="servicio__titulo">Corte de Cabello Hombre</h3>
       <p class="servicio__precio">$50 - $100</p>
@@ -17,6 +18,7 @@
         <i class="fa-solid fa-couch"></i>
       </div>
     </div>
+
     <div class="servicio">
       <h3 class="servicio__titulo">Corte de Cabello Hombre</h3>
       <p class="servicio__precio">$50 - $100</p>
@@ -25,6 +27,7 @@
         <i class="fa-solid fa-couch"></i>
       </div>
     </div>
+
     <div class="servicio">
       <h3 class="servicio__titulo">Corte de Cabello Hombre</h3>
       <p class="servicio__precio">$50 - $100</p>
@@ -36,3 +39,14 @@
   </div>
 
 </main>
+
+<?php
+include_once __DIR__ . '/horarios.php';
+?>
+
+<!-- Ubicación -->
+<section class="ubicacion">
+  <h2 class="ubicacion__heading">Ubicación</h2>
+  
+  <div id="mapa" class="mapa"></div>
+</section>
