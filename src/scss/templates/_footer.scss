@@ -1,0 +1,8 @@
+@use 'base/variables' as v;
+
+.footer {
+  color: v.$azul;
+  font-size: 2rem;
+  text-align: center;
+  padding: 3rem 0;
+}
