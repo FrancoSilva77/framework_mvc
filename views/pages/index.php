@@ -50,3 +50,10 @@ include_once __DIR__ . '/horarios.php';
   
   <div id="mapa" class="mapa"></div>
 </section>
+
+<!-- Contacto -->
+<section class="contacto">
+  <h2 class="contacto__heading">Contacto</h2>
+
+  <p class="contacto__telefono">Número de Teléfono: <span class="contacto__telefono--span">238-128-42-84</span></p>  
+</section>
