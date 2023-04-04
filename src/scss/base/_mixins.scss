@@ -52,3 +52,26 @@
   width: min(95%, 140rem);
   margin: 0 auto;
 }
+
+@mixin contenedor-md {
+  width: min(95%, 80rem);
+  margin: 0 auto;
+}
+
+@mixin contenedor-sm {
+  width: min(95%, 60rem);
+  margin: 0 auto;
+}
+
+// Titulos
+@mixin headings {
+  font-family: v.$fuente_principal;
+  font-weight: v.$black;
+  margin: 2rem 0;
+}
+
+@mixin nombre-pagina {
+  @include headings;
+  margin: 6rem 0 3rem 0;
+  text-align: center;
+}
