@@ -4,8 +4,8 @@
     <div class="header__barra">
       <h2 class="header__titulo">Estetica Unisex Silvia</h2>
       <nav class="navegacion">
-        <a href="#" class="navegacion__enlace">Iniciar Sesión</a>
-        <a href="#" class="navegacion__enlace">Registrarse</a>
+        <a href="/login" class="navegacion__enlace">Iniciar Sesión</a>
+        <a href="/registro" class="navegacion__enlace">Registrarse</a>
       </nav>
     </div>
 
